@@ -138,6 +138,8 @@
   line-height: 30px;
   color: #fff;
 }
+/*-------------------------DAQUI PRA BAIXO----------------------------*/
+
 .reservation {
   background-color: #d9e7ff;
   background-image: url(../images/background_reservation.svg);
@@ -151,14 +153,16 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  margin: 0px;
+  margin-top: 0px;
   padding-top: 100px;
-  padding-bottom: 80px;
+}
+.reservation__form {
+  padding-top: 80px;
+  padding-bottom: 120px;
 }
 .form {
   width: 385px;
   max-width: 385px;
-  padding-bottom: 120px;
 }
 .form__fieldset {
   border: 0px;
