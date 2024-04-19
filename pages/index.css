@@ -1,3 +1,13 @@
+@import url(../vendor/normalize.css);
+@import url(../blocks/page.css);
+@import url(../blocks/header.css);
+@import url(../blocks/nav.css);
+@import url(../blocks/recipes.css);
+@import url(../blocks/reservation.css);
+@import url(../blocks/form.css);
+@import url(../blocks/footer.css);
+
+/*
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -6,6 +16,8 @@
   line-height: 20px;
   margin: 0 auto;
 }
+*/
+/*
 .header {
   display: flex;
   flex-direction: column;
@@ -20,33 +32,6 @@
   background-position: center;
   background-repeat: no-repeat;
 }
-.nav {
-  display: flex;
-  justify-content: space-between;
-}
-.nav__logo {
-  width: 105px;
-  height: 39px;
-  position: relative;
-  top: 0px;
-  left: -50px;
-}
-
-.nav__links {
-  display: flex;
-  column-gap: 20px;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  font-weight: 500;
-}
-
-.nav__link {
-  color: #000000;
-  text-decoration: none;
-  font-weight: bold;
-}
-
 .header__title {
   font-size: 58px;
   line-height: 72px;
@@ -89,6 +74,36 @@
   font-weight: 500;
   color: #838383;
 }
+*/
+/* NAV
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav__logo {
+  width: 105px;
+  height: 39px;
+  position: relative;
+  top: 0px;
+  left: -50px;
+}
+
+.nav__links {
+  display: flex;
+  column-gap: 20px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-weight: 500;
+}
+
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+*/
+/*
 .recipes {
   background-color: #0a2750;
   background-image: url(../images/background_recipes.svg);
@@ -138,8 +153,8 @@
   line-height: 30px;
   color: #fff;
 }
-/*-------------------------DAQUI PRA BAIXO----------------------------*/
-
+*/
+/*
 .reservation {
   background-color: #d9e7ff;
   background-image: url(../images/background_reservation.svg);
@@ -159,6 +174,8 @@
 .reservation__form {
   padding-bottom: 120px;
 }
+*/
+/*
 .form {
   width: 385px;
   max-width: 385px;
@@ -212,3 +229,4 @@
   justify-content: center;
   column-gap: 12px;
 }
+*/
