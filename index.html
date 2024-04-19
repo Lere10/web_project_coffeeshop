@@ -7,7 +7,6 @@
     <meta name="description" content="Sprint4" />
     <meta name="keywords" content="html, css" />
     <title>Cafe</title>
-    <!--    <link rel="stylesheet" href="./vendor/normalize.css" /> -->
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -34,7 +33,7 @@
               <a href="#reservation" class="nav__link">Reservar uma mesa</a>
             </li>
             <li>
-              <a href="#" class="nav__link">Contatos</a>
+              <a href="#footer" class="nav__link">Contatos</a>
             </li>
           </ul>
         </nav>
@@ -151,7 +150,41 @@
           </form>
         </section>
       </main>
-      <footer class="footer"></footer>
+      <footer id="footer" class="footer">
+        <div class="footer__circle"></div>
+        <div class="footer__content">
+          <img
+            class="footer__logo"
+            src="./images/logo_coffeeshop_light.svg"
+            alt="Logo biblioteca Triple Espresso"
+          />
+
+          <div class="footer__social">
+            <p class="footer__social-heading">Mídia social</p>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link"
+                  ><img
+                    src="./images/facebook_white.svg"
+                    alt="Ícone facebook"
+                    class="footer__social-icon"
+                  />Facebook</a
+                >
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link"
+                  ><img
+                    src="./images/instagram_white.svg"
+                    alt="Ícone Instagram"
+                    class="footer__social-icon"
+                  />Instagram</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">© 2024 Lucas Ierê</p>
+      </footer>
     </div>
   </body>
 </html>
